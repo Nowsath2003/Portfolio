@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
         }
-        document.querySelector('.projects').addEventListener("scroll", function () {
+        document.querySelector('.slides').addEventListener("scroll", function () {
             if (!menu.classList.contains('hidden')) {
                 menu.classList.add('hidden');
             }
