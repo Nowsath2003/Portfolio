@@ -78,14 +78,14 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
         }
-        document.querySelector('.projects').addEventListener("scroll", function(){
-            if(!menu.classList.contains('hidden')){
+        document.querySelector('.projects').addEventListener("scroll", function () {
+            if (!menu.classList.contains('hidden')) {
                 menu.classList.add('hidden');
             }
         })
     });
-   
-   
+
+
 
 
     //AT SCROLL
@@ -117,17 +117,17 @@ document.addEventListener('DOMContentLoaded', function () {
         //Skill section transition
         const skillSection = document.querySelector('.skills');
         const skillSectionPosition = skillSection.getBoundingClientRect().top;
-        if(skillSectionPosition < screenPosition){
+        if (skillSectionPosition < screenPosition) {
             skillSection.classList.add('display');
         }
 
         //contact section transition
         const contactSection = document.querySelector('.contacts');
         const contactSectionPosition = contactSection.getBoundingClientRect().top;
-        if(contactSectionPosition < screenPosition){
+        if (contactSectionPosition < screenPosition) {
             contactSection.classList.add('display');
         }
-        else{
+        else {
             contactSection.classList.remove('display');
         }
     });
@@ -142,36 +142,36 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // project section
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var slides = document.querySelectorAll(".slide");
     var modal = document.getElementById("modal");
     var modalInfo = document.getElementById("modal-info");
     var span = document.getElementsByClassName("close")[0];
 
-    slides.forEach(function(slide) {
-        slide.addEventListener("click", function() {
+    slides.forEach(function (slide) {
+        slide.addEventListener("click", function () {
             var info = this.getAttribute("data-info");
             modalInfo.innerHTML = getInfo(info);
             modal.style.display = "block";
         });
     });
 
-    span.onclick = function() {
+    span.onclick = function () {
         modal.style.display = "none";
     }
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
     }
 
-    window.addEventListener("scroll", function(){
+    window.addEventListener("scroll", function () {
         modal.style.display = "none";
     })
 
     function getInfo(info) {
-        switch(info) {
+        switch (info) {
             case "info1":
                 return `
                 <div class="modal-project-content">
@@ -190,7 +190,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 `;
             case "info2":
                 return `
-                    <h3 class="modal-project-title">Will update soon...</h3>
+                    <div class="modal-project-content">
+                    <h3 class="modal-project-title">Bus Ticket Booking</h3>
+                    <p class="modal-project-description">I developed a responsive website for seamless bus ticket booking. Users can enter details such as bus number, departure and destination points, number of tickets, and mobile number. Upon submission, the website generates an e-ticket, displayed in a popup. Users can easily download this e-ticket as an image for their convenience.</p>
+                    <p class="modal-project-description">This website for bus ticket booking is tailored for chennai location with specific bus route for few places only.</p>
+                    <a href="https://nowsath2003.github.io/Bus_Reservation/" target="_blank" class="project-link">View Website</a>
+                    <a href="https://github.com/Nowsath2003/Bus_reservation" target="_blank" class="github-link">GitHub Link</a>
+                </div>
                 `;
             case "info3":
                 return `
