@@ -175,17 +175,10 @@ document.addEventListener("DOMContentLoaded", function () {
             case "info1":
                 return `
                 <div class="modal-project-content">
-                    <h3 class="modal-project-title">Personal Portfolio Website</h3>
-                    <p class="modal-project-description">This project showcases a dynamic and interactive personal portfolio built using HTML, CSS, and JavaScript. The website features a sleek and classic design, highlighting various sections such as:</p>
-                    <ul class="modal-project-list">
-                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">About Me:</span> A brief introduction about who I am, my background, and my professional aspirations.</li>
-                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Education:</span> Details of my academic qualifications and institutions attended.</li>
-                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Skills:</span> A visual representation of my technical skills and proficiencies.</li>
-                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Projects:</span> Highlights of my key projects, complete with descriptions and visuals.</li>
-                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Contact:</span> Information on how to get in touch with me, including a stylish contact form.</li>
-                    </ul>
-                    <a href="#" class="project-link">View Website</a>
-                    <a href="https://github.com/Nowsath2003/Portfolio" target="_blank" class="github-link">GitHub Link</a>
+                    <h3 class="modal-project-title">ATM WEB APLLICATION</h3>
+                    <p class="modal-project-description">I designed and developed a sophisticated ATM web application that offers a complete suite of banking functionalities. Users can securely register and log in to their accounts, perform deposits and withdrawals, access fast cash options, check their balance, and view mini transactions. The application also allows users to change their PIN, ensuring enhanced security and personalized access control. The user interface is intuitive and responsive, providing a seamless experience across various devices.</p>
+                    <p class="modal-project-description">This application leverages a powerful tech stack, including HTML, CSS, JSP, Java, SQL, JDBC, Servlet, and Tomcat. These technologies work together to deliver a robust, scalable, and efficient system. The backend ensures secure data handling and swift transaction processing, while the frontend offers a user-friendly interface. This project demonstrates my proficiency in full-stack development and my ability to create reliable and secure web applications.</p>
+                    <a href="https://github.com/Nowsath2003/ATM_WEB_PROJECT" target="_blank" class="github-link">GitHub Link</a>
                 </div>
                 `;
             case "info2":
@@ -200,7 +193,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 `;
             case "info3":
                 return `
-                    <h3 class="modal-project-title">Will update soon...</h3>
+                    <div class="modal-project-content">
+                    <h3 class="modal-project-title">Personal Portfolio Website</h3>
+                    <p class="modal-project-description">This project showcases a dynamic and interactive personal portfolio built using HTML, CSS, and JavaScript. The website features a sleek and classic design, highlighting various sections such as:</p>
+                    <ul class="modal-project-list">
+                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">About Me:</span> A brief introduction about who I am, my background, and my professional aspirations.</li>
+                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Education:</span> Details of my academic qualifications and institutions attended.</li>
+                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Skills:</span> A visual representation of my technical skills and proficiencies.</li>
+                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Projects:</span> Highlights of my key projects, complete with descriptions and visuals.</li>
+                        <li class="modal-project-list-item"><span style="color: rgb(90,90,240); font-weight: bold;">Contact:</span> Information on how to get in touch with me, including a stylish contact form.</li>
+                    </ul>
+                    <a href="#" class="project-link">View Website</a>
+                    <a href="https://github.com/Nowsath2003/Portfolio" target="_blank" class="github-link">GitHub Link</a>
+                </div>
                 `;
             case "info4":
                 return `
