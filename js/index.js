@@ -194,6 +194,15 @@ document.addEventListener("DOMContentLoaded", function () {
             case "info3":
                 return `
                     <div class="modal-project-content">
+                    <h3 class="modal-project-title">Conference Website (for college event)</h3>
+                    <p class="modal-project-description">I designed a comprehensive website for a college conference event by customizing an online template. This involved tailoring the template to include specific event details, schedules, speaker information, and registration forms, ensuring it met all the unique requirements of our event.</p>
+                    <a href="https://nowsath2003.github.io/Conference_website/" target="_blank" class="project-link">View Website</a>
+                    <a href="https://github.com/Nowsath2003/Conference_website" target="_blank" class="github-link">GitHub Link</a>
+                </div>
+                `;
+            case "info4":
+                return `
+                    <div class="modal-project-content">
                     <h3 class="modal-project-title">Personal Portfolio Website</h3>
                     <p class="modal-project-description">This project showcases a dynamic and interactive personal portfolio built using HTML, CSS, and JavaScript. The website features a sleek and classic design, highlighting various sections such as:</p>
                     <ul class="modal-project-list">
@@ -206,10 +215,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     <a href="#" class="project-link">View Website</a>
                     <a href="https://github.com/Nowsath2003/Portfolio" target="_blank" class="github-link">GitHub Link</a>
                 </div>
-                `;
-            case "info4":
-                return `
-                    <h3 class="modal-project-title">Will updatde soon...</h3>
                 `;
             case "info5":
                 return `
